@@ -49,11 +49,14 @@ We'll elaborate on all of these - except Booleans - talk about how they differ i
 
 From the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction): "JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.... Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation."
 
+<!--ACtually 10:03-->
 <!--10:00 <10 minutes-->
 
 <!--Code-along -->
 
 #### What are we working with? Demo
+
+<!--We will cover dev tools in more detail later -->
 
 For this lesson, we're going to use the Chrome Developer Tools Console shell.  Open a Chrome window and type `cmd+alt+j` to open the console.
 
@@ -170,6 +173,7 @@ Math.floor(3.9999)
 => 3
 ```
 
+<!--Actually 10:13 -->
 <!--10:10 - 5 minutes -->
 
 #### Challenge
@@ -180,6 +184,7 @@ Try the following operations in your Chrome Developer tools:
 2. Show the square root of `123456`
 3. Show a random number between 0 and 20
 
+<!--Actually 
 <!-- 10:15 5 minutes -->
 
 #### Strings
@@ -277,6 +282,7 @@ parseFloat("1" + Math.PI);
 
 ```
 
+<!--Actually 10:30-->
 <!--10:20 5 minutes -->
 
 #### NaN
@@ -303,6 +309,8 @@ You can test for `NaN` using the built-in [`isNaN()`](ttps://developer.mozilla.o
 isNaN(NaN);
 => true
 ```
+
+<!--Actually 10:32 -->
 
 #### Null and Undefined
 
@@ -378,6 +386,7 @@ In Javascript we just discussed two types of values we can use. We call these va
 
 <!-- CFU Fist-to-five "How do we feel about Strings?  Numbers?  Their methods? -->
 
+<!--ACtually 10:40 -->
 <!-- 10:30 5 minutes -->
 
 ## Arrays - Demo
@@ -469,6 +478,7 @@ Arrays come with a number of methods. Here's a list of some popular helpers:
 
 Remember, though, you'll never remember _every_ method.  Explore the the [full documentation for array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and other helper methods given to you for different objects (like Math, Date, String, et c).
 
+<!--Actually 10:45 -->
 <!--10:40 5 minutes -->
 
 #### Challenge
@@ -515,7 +525,7 @@ This function would return:
 
 ```javascript
 Bruins
-Cal Bears
+Broncos
 Ravens
 Ducks
 undefined
@@ -530,6 +540,7 @@ Here are some other iterator methods for you to research and practice with:
 - `Array.filter()`
 - `Array.map()`
 
+<!--Actually 10:54 -->
 <!--10:50 20 minutes -->
 
 ## Independent Practice
@@ -538,6 +549,7 @@ Here are some other iterator methods for you to research and practice with:
 
 Take a look at the [starter-code](starter-code) and work through each exercise using the comments provided to console log the correct information.  
 
+<!--Actually 11:13, skipped conclusion and just went through objectives-->
 <!--11:10 5 minutes -->
 
 ## Conclusion
