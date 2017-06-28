@@ -556,6 +556,7 @@ Take a look at the [starter-code](starter-code) and work through each exercise u
 
 <!--Actually 11:13, skipped conclusion and just went through objectives-->
 <!--11:10 5 minutes -->
+<!--11:27 WDI4 after objectives run-through -->
 
 ## Conclusion
 
